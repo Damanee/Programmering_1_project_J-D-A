@@ -75,19 +75,32 @@ def clear():
     print()
     print()
     print()
+    print()
+    print()
+
+def start():
+    play = input("Would you like to start the game? (yes/no): ").lower().strip()
+    if play == "yes":
+     intro()
+    elif play == "no":
+        print("Maybe next time")
+    elif play != "yes" or "no":
+        again()
+
+
+def again():
+    time.sleep(1)
+    print_slow("Please enter a valid answer")
+    clear()
+    start()
 
 
 
 
 
-
-#Var magin händer
 clear()
-play = input("Would you like to start the game? (yes/no): ").lower().strip()
-if play == "yes" or "y":
-    intro()
-elif play == "no" or "n":
-    print("Maybe next time")
+start()
+
 
 
 
