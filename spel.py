@@ -1,1 +1,1 @@
-gay boy
+print("why so serious?!?!?!?")
