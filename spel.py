@@ -1,2 +1,1 @@
-print("Lets fucking go")
-jamames testar
+gay boy
