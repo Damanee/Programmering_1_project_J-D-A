@@ -11,7 +11,7 @@ bag = []
 
 # Karaktärens basvärden
 HP = 10
-STR = 1
+STR = 5
 LVL = 1
 
 # Functionen som startar igång spelet
