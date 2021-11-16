@@ -1,11 +1,10 @@
 
-print("Lets fucking go") 
+print("why so serious?!?!?!?")
+
+
+
 
 
 
 
 hello test
-
-print("why so serious?!?!?!?")
-
-
