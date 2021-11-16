@@ -6,7 +6,7 @@ def print_slow(str):
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.05)
-
+#Introduction som skrivs ut innan spelet "börjar"
 def intro():
     print()
     print_slow("Darkness")
@@ -36,21 +36,7 @@ def intro():
     time.sleep(1)
     firstchoice()
 
-def clear():
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-    print()
-
+#Det första valet spelaren får göra
 def firstchoice():
     print()
     time.sleep(1)
@@ -74,10 +60,28 @@ def firstchoice():
     elif first_choice == "forward" or "f":
         print("You chose to go forward, making oyur way towards the large rock wall and the vines that are climbing up it")
 
+#Jobbig grej
+def clear():
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
 
 
 
 
+
+
+#Var magin händer
 clear()
 play = input("Would you like to start the game? (yes/no): ").lower().strip()
 if play == "yes" or "y":
