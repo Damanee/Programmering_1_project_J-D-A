@@ -53,9 +53,16 @@ def clear():
 
 def firstchoice():
     print_slow("You look ahead and see 3 paths leading in different directions. Which do you choose?")
+
     print_slow("To your right is a tunnel with what looks like a distant, very faint light")
+    time.sleep(1)
+    print()
     print_slow("Right ahead is a wall with very thick vines leading upwards. They look sturdy enough to climb up")
+    time.sleep(1)
+    print()
     print_slow("To your left is an opening leading to a large body of water")
+    time.sleep(1)
+    print()
     first_choice=input("Where will you go? Right, Left or Forward?: ").strip().lower()
     if first_choice == "left" or "l":
         print("You chose to go left and explore the waters")
