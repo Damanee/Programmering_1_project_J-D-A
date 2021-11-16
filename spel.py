@@ -65,7 +65,7 @@ def playloop():
         choice = input(
             "Would you like to: open a door, check stats or check inventory?")
         if choice == "open":
-            print("andom")
+            input("Which door would you like to open? 1/2/3: ")
 
 
 # Skapar lite klar yta i termninalen
