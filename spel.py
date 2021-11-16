@@ -52,6 +52,8 @@ def clear():
     print()
 
 def firstchoice():
+    print()
+    time.sleep(1)
     print_slow("You look ahead and see 3 paths leading in different directions. Which do you choose?")
     time.sleep(1)
     print()
